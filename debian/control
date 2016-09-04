@@ -1,0 +1,66 @@
+Source: evolution-dummy
+Section: gnome
+Priority: optional
+Maintainer: Robert Lange <rlange@corusa.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: evolution
+Architecture: all
+Description: Dummy package to remove Evolution without removing Gnome
+ The Debian gnome meta package requires Evolution, however Gnome does
+ not strictly require Evolution. This package replaces the Debian
+ evolution packages with empty packages, but still satisfies the gnome
+ meta package requirements.
+
+Package: libevolution
+Architecture: all
+Description: Dummy package to remove Evolution without removing Gnome
+ The Debian gnome meta package requires Evolution, however Gnome does
+ not strictly require Evolution. This package replaces the Debian
+ evolution packages with empty packages, but still satisfies the gnome
+ meta package requirements.
+
+Package: evolution-common
+Architecture: all
+Description: Dummy package to remove Evolution without removing Gnome
+ The Debian gnome meta package requires Evolution, however Gnome does
+ not strictly require Evolution. This package replaces the Debian
+ evolution packages with empty packages, but still satisfies the gnome
+ meta package requirements.
+
+Package: evolution-dev
+Section: devel
+Architecture: all
+Description: Dummy package to remove Evolution without removing Gnome
+ The Debian gnome meta package requires Evolution, however Gnome does
+ not strictly require Evolution. This package replaces the Debian
+ evolution packages with empty packages, but still satisfies the gnome
+ meta package requirements.
+
+Package: evolution-dbg
+Section: debug
+Priority: extra
+Architecture: all
+Description: Dummy package to remove Evolution without removing Gnome
+ The Debian gnome meta package requires Evolution, however Gnome does
+ not strictly require Evolution. This package replaces the Debian
+ evolution packages with empty packages, but still satisfies the gnome
+ meta package requirements.
+
+Package: evolution-plugins
+Architecture: all
+Description: Dummy package to remove Evolution without removing Gnome
+ The Debian gnome meta package requires Evolution, however Gnome does
+ not strictly require Evolution. This package replaces the Debian
+ evolution packages with empty packages, but still satisfies the gnome
+ meta package requirements.
+
+Package: evolution-plugins-experimental
+Architecture: all
+Description: Dummy package to remove Evolution without removing Gnome
+ The Debian gnome meta package requires Evolution, however Gnome does
+ not strictly require Evolution. This package replaces the Debian
+ evolution packages with empty packages, but still satisfies the gnome
+ meta package requirements.
+ 
